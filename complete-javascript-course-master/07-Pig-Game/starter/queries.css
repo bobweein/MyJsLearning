@@ -1,0 +1,45 @@
+@media (max-width: 30em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  main {
+    flex-direction: column;
+    /* grid-template-columns: auto; */
+    width: 94rem;
+    height: auto;
+    padding: 3rem;
+    margin-top: 1rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .score {
+    font-size: 2rem;
+  }
+  .player {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .btn {
+    border-radius: 5rem;
+  }
+  .btn--new {
+    top: 3rem;
+  }
+  .btn--roll {
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .btn--hold {
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, 50%);
+  }
+  .dice {
+    left: 80%;
+    top: 34rem;
+    height: 8rem;
+  }
+}
